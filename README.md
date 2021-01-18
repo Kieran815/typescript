@@ -14,13 +14,13 @@ Runtime: 03:16:39
 <sub>(`^` denotes completed. Files listed below related sections.)</sub>
 
 - Getting Started 00:00
-  1. add files
 - What is TypeScript: 01:57
 - Installing & Using TypeScript 06:31
 - The Advantages of TypeScript 19:53
 - Course Outline 22:59
 - How to Get the Most out of This Course 27:16
 - Setting Up our Development Environment 30:29
+  - created `boilerplate` folder
 - The Course Project Setup 33:36
 - Module Introduction 40:56
 - Using Types 41:23
