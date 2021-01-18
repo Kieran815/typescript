@@ -1,4 +1,4 @@
-#**_TypeScript Course for Beginners 2020 - *Learn TypeScript from Scratch!*_**
+# **_TypeScript Course for Beginners 2020 - *Learn TypeScript from Scratch!*_**
 
 Course work for instructions by _Max Schwarzmueller_ **c/o** _<a href="https://www.academind.com" target="_blank" rel="noopener noreferrer">Academind</a>_.
 
