@@ -1,4 +1,4 @@
-#Course Boilerplate Code
+## Course Boilerplate Code
 
 Copy and paste folder to start a new TypeScript project.
 

@@ -20,8 +20,9 @@ Runtime: 03:16:39
 - Course Outline 22:59 ^
 - How to Get the Most out of This Course 27:16 ^
 - Setting Up our Development Environment 30:29 ^
-  - created `boilerplate` folder
 - The Course Project Setup 33:36
+  - created `boilerplate` folder
+  - see `boilerplate/README.md`
 - Module Introduction 40:56
 - Using Types 41:23
 - TypeScript Types vs JavaScript Types 51:43
