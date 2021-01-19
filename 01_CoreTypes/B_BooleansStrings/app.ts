@@ -1,3 +1,4 @@
+console.log("Module 1.B: Booleans & Strings")
 // add a boolean and a string to the prior `add()` example:
 function add(n1: number, n2: number, showResult: boolean, phrase: string) {
   const result = n1 + n2

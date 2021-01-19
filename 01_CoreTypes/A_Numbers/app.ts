@@ -64,6 +64,7 @@ console.log("Result 1:" + result, typeof result)
 // Using TypeScript will prevent you from creating/running unnecessary errors by checking the types of the variables being passed DURING DEVELOPMENT.
 // When errors are found, TypeScript will give you a better idea of what and where they are in your code, preventing you from having unnecessary errors in your production code.
 
+// #### Example 2:
 // **** FINAL PASSING AND WORKING CODE WITH TYPESCRIPT:
 function add2(n1: number, n2: number) {
   return n1 + n2

@@ -11,7 +11,9 @@ Runtime: 03:16:39
 
 ## Timestamps for Video
 
-<sub>(`^` denotes completed. Files listed below related sections.)</sub>
+<sub>(`^` denotes completed. Files/Directories listed below related sections.)</sub>
+
+## Course Intro & Setup
 
 - Getting Started 00:00 ^
 - What is TypeScript: 01:57 ^
@@ -23,6 +25,11 @@ Runtime: 03:16:39
 - The Course Project Setup 33:36 ^
   - created `boilerplate` folder
   - see `boilerplate/README.md`
+
+## Core TypeScript Types
+
+See
+
 - Module Introduction 40:56 ^
 - Using Types 41:23 ^
   - Created `01_CoreTypes` directory for examples based on core types in TypeScript
