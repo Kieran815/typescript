@@ -23,9 +23,9 @@ Runtime: 03:16:39
 - The Course Project Setup 33:36 ^
   - created `boilerplate` folder
   - see `boilerplate/README.md`
-- Module Introduction 40:56
-- Using Types 41:23
-- TypeScript Types vs JavaScript Types 51:43
+- Module Introduction 40:56 ^
+- Using Types 41:23 ^
+- TypeScript Types vs JavaScript Types 51:43 ^
 - Numbers, Strings and Booleans 56:37
 - Type Assignment and Type Inference 01:02:20
 - Object Types 01:07:59
@@ -50,8 +50,8 @@ Runtime: 03:16:39
 - Understanding TypeScript Libs 02:37:59
 - More Options 02:43:31
 - Source Maps 02:45:12
-- Rootdir and Outdir 02:47:12
-- noemit on Error 02:52:43
+- `Rootdir` and `Outdir` 02:47:12
+- `noemit` on Error 02:52:43
 - Strict Compilation Options 02:55:35
 - Code Quality Options 03:06:39
 - Debugging with Visual Studio Code 03:11:02
