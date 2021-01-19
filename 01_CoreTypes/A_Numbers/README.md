@@ -1,7 +1,8 @@
-#Course Boilerplate Code
+# Course Section 1A: Numbers
 
-- created basic HTML5 doc and linked it to `app.js`, which is compiled from `app.ts`.
-- ran `npm init` (all default settings)
-- added `lite-server` to `start` script on package.json
+Covers Sections:
 
-**NOTE:** make sure to run `npm install` as the `node_modules` folder is deleted by default
+- Using Types
+- TypeScript Types vs. JavaScript Types
+
+Time: 40:56-56:36

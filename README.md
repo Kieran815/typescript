@@ -25,7 +25,10 @@ Runtime: 03:16:39
   - see `boilerplate/README.md`
 - Module Introduction 40:56 ^
 - Using Types 41:23 ^
+  - Created `01_CoreTypes` directory for examples based on core types in TypeScript
+  - `A_Numbers`
 - TypeScript Types vs JavaScript Types 51:43 ^
+  - `B_Booleans`
 - Numbers, Strings and Booleans 56:37
 - Type Assignment and Type Inference 01:02:20
 - Object Types 01:07:59
