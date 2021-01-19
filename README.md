@@ -20,7 +20,7 @@ Runtime: 03:16:39
 - Course Outline 22:59 ^
 - How to Get the Most out of This Course 27:16 ^
 - Setting Up our Development Environment 30:29 ^
-- The Course Project Setup 33:36
+- The Course Project Setup 33:36 ^
   - created `boilerplate` folder
   - see `boilerplate/README.md`
 - Module Introduction 40:56
