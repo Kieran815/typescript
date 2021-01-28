@@ -1,10 +1,11 @@
-## Course Boilerplate Code
+# Course Section 1F: Enum
 
-Copy and paste folder to start a new TypeScript project.
+Covers Sections:
 
-- created basic HTML5 doc and linked it to `app.js`, which is compiled from `app.ts`.
-- ran `npm init` (all default settings)
-- added `lite-server` to `start` script on package.json
-- added `.gitingore` to skip all subsequent `node_modules` folders by default
+## Enums
 
-**NOTE:** make sure to run `npm install` as the `node_modules` folder is retracted by default.
+- Allowing Enums in JavaScript with TypeScript
+- Added By TypeScript
+- Auto Enumerate Global Constant Identifiers
+
+Time: 1:27:20 - 1:34:26
