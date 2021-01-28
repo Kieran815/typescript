@@ -6,4 +6,4 @@ Covers Sections:
 
 Intro to Best Practices with Array Types.
 
-Time: 1:15:30 -
+Time: 1:15:30 - 1:21:00
