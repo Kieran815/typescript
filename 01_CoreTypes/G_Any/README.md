@@ -8,4 +8,4 @@ Covers Sections:
 - Fallback if you don't know what type of data will be stored in the variable
 - Don't Use Often, as `any` negates TypeScript errors
 
-Time: 1:34:26 - 1:36:31
+Time: 1:34:26 - 1:36:30
