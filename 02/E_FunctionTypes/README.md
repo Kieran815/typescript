@@ -1,10 +1,15 @@
-## Course Boilerplate Code
+# Course Section 2D: Function Types
 
-Copy and paste folder to start a new TypeScript project.
+Covers Sections:
 
-- created basic HTML5 doc and linked it to `app.js`, which is compiled from `app.ts`.
-- ran `npm init` (all default settings)
-- added `lite-server` to `start` script on package.json
-- added `.gitingore` to skip all subsequent `node_modules` folders by default
+## Function Types
 
-**NOTE:** make sure to run `npm install` as the `node_modules` folder is retracted by default.
+- Assign `Function` type to variables to catch accidental reassignment
+- use `(a: type, b: type) => type` to assign input and output types
+- Example:
+
+```
+let randomVar: (a: number, b: number) => number
+```
+
+Time: 2:01:20 - 2:06:55

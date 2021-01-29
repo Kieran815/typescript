@@ -1,15 +1,11 @@
-# Course Section 2D: Function Types
+# Course Section 2D: Function Return Types and Void
 
 Covers Sections:
 
-## Function Types
+## Function Return Types and Void
 
-- Assign `Function` type to variables to catch accidental reassignment
-- use `(a: type, b: type) => type` to assign input and output types
-- Example:
+- Functions can be assigned types
+- The function type is assigned to the returned value of the function's output
+- Functions that DO NOT HAVE RETURNED VALUES are assigned the `void` type
 
-```
-let randomVar: (a: number, b: number) => number
-```
-
-Time: 2:01:20 - 2:06:55
+Time: 1:53:56 - 2:01:20
