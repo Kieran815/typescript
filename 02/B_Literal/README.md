@@ -1,4 +1,4 @@
-# Course Section 2A: Union
+# Course Section 2B: Type Literals
 
 Covers Sections:
 
