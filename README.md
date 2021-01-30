@@ -26,33 +26,33 @@ Runtime: 03:16:39
   - created `boilerplate` folder
   - see `boilerplate/README.md`
 
-## Core TypeScript Types
+## 01: Core TypeScript Types
 
 See
 
 - Module Introduction 40:56 ^
 - Using Types 41:23 ^
-  - Created `01_CoreTypes` directory for examples based on core types in TypeScript
-  - `A_Numbers`
 - TypeScript Types vs JavaScript Types 51:43 ^
-  - `B_Booleans`
-- Numbers, Strings and Booleans 56:37
-- Type Assignment and Type Inference 01:02:20
-- Object Types 01:07:59
-- Array Types 01:15:31
-- Tuples 01:21:01
-- Enums 01:27:21
-- The Any Type 01:34:26
-- Union Types 01:36:30
-- Literal Types 01:43:01
-- Type Aliases 01:50:55
-- Function Return Types and Void 01:53:55
-- Function Types 02:01:21
-- Function Types and Callbacks 02:06:55
-- The Unknown Type 02:11:18
-- The Never Type 02:15:02
-- Wrap Up 02:19:12
-- Module Introduction 02:21:04
+- Numbers, Strings and Booleans 56:37 ^
+- Type Assignment and Type Inference 01:02:20 ^
+- Object Types 01:07:59 ^
+- Array Types 01:15:31 ^
+- Tuples 01:21:01 ^
+- Enums 01:27:21 ^
+- The Any Type 01:34:26 ^
+- Union Types 01:36:30 ^
+- Literal Types 01:43:01 ^
+- Type Aliases 01:50:55 ^
+- Function Return Types and Void 01:53:55 ^
+- Function Types 02:01:21 ^
+- Function Types and Callbacks 02:06:55 ^
+- The Unknown Type 02:11:18 ^
+- The Never Type 02:15:02 ^
+- Wrap Up 02:19:12 ^
+
+## 02: The Compiler
+
+- Module Introduction 02:21:04 ^
 - Watch Node 02:21:50
 - Compiling the Entire Project 02:23:55
 - Include and Exclude Files 02:27:42
