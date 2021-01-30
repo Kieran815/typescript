@@ -1,4 +1,4 @@
-# Course Section 2B: Type Literals
+# Course Section 1I: Type Literals
 
 Covers Sections:
 

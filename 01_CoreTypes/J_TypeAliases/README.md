@@ -1,4 +1,4 @@
-# Course Section 2C: Type Aliases
+# Course Section 1J: Type Aliases
 
 Covers Sections:
 

@@ -1,4 +1,4 @@
-# Course Section 2A: Union
+# Course Section 1H: Union
 
 Covers Sections:
 

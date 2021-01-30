@@ -39,3 +39,21 @@ combinedValues2 = printResult;
 // Error Message:
 // error TS2322: Type '(num: number) => void' is not assignable to type '(a: number, b: number) => number'.
 // Type 'void' is not assignable to type 'number'.
+//
+// *** FUNCTION TYPES AND CALLBACKS ***
+// TypeScript can apply function types to callback paramaters
+// Same principal: assign your parameter types and return types
+// `cb` tells function that input is a `number` and the output is `void`
+// NOTE: `void` acts similarly to `any`; `void` ignores function output type
+function addAndHandle(n1, n2, cb) {
+    var result = n1 + n2;
+    // call the callback function and pass `result`
+    // `cb` input type sees that `result` is a `number`
+    cb(result);
+}
+// type inference for `sum` based on prop callback function type above
+// Reads: `(parameter) sum: number`
+addAndHandle(36, 5, function (sum) {
+    console.log("The Sum of addAndHandle is " + sum);
+    return sum;
+});

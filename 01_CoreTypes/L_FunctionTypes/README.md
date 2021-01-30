@@ -1,4 +1,6 @@
-# Course Section 2D: Function Types
+# Course Section 1L
+
+: Function Types
 
 Covers Sections:
 
@@ -13,3 +15,16 @@ let randomVar: (a: number, b: number) => number
 ```
 
 Time: 2:01:20 - 2:06:55
+
+## Function Types and Callbacks
+
+- Apply Function types to Callback Functions
+- Example:
+
+```
+function exampleFunction(n1: number, n2: number, cb: (num: number) => void)
+```
+
+-
+
+Time: 2:06:55 - 2:11:18
