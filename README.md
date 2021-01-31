@@ -23,12 +23,8 @@ Runtime: 03:16:39
 - How to Get the Most out of This Course 27:16 ^
 - Setting Up our Development Environment 30:29 ^
 - The Course Project Setup 33:36 ^
-  - created `boilerplate` folder
-  - see `boilerplate/README.md`
 
 ## 01: Core TypeScript Types
-
-See
 
 - Module Introduction 40:56 ^
 - Using Types 41:23 ^
