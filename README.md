@@ -5,7 +5,8 @@ Course work for instructions by _Max Schwarzmueller_ **c/o** _<a href="https://w
 **https://www.youtube.com/watch?v=BwuLxPH8IDs**
 
 Building as a reference to syntax and best practices.
-I love this guy, so I'm gonna follow through this course and present to my coding group (if they let me).
+
+**See `README.md` in each module lesson for details**
 
 Runtime: 03:16:39
 
@@ -24,7 +25,7 @@ Runtime: 03:16:39
 - Setting Up our Development Environment 30:29 ^
 - The Course Project Setup 33:36 ^
 
-## 01: Core TypeScript Types
+## 01: Core Types
 
 - Module Introduction 40:56 ^
 - Using Types 41:23 ^
@@ -49,16 +50,23 @@ Runtime: 03:16:39
 ## 02: The Compiler
 
 - Module Introduction 02:21:04 ^
-- Watch Node 02:21:50
-- Compiling the Entire Project 02:23:55
-- Include and Exclude Files 02:27:42
-- Setting a Compilation Target 02:33:55
-- Understanding TypeScript Libs 02:37:59
-- More Options 02:43:31
-- Source Maps 02:45:12
-- `Rootdir` and `Outdir` 02:47:12
-- `noemit` on Error 02:52:43
-- Strict Compilation Options 02:55:35
-- Code Quality Options 03:06:39
-- Debugging with Visual Studio Code 03:11:02
-- Wrap Up 03:15:22
+- Watch Node 02:21:50 ^
+- Compiling the Entire Project 02:23:55 ^
+- Include and Exclude Files 02:27:42 ^
+- Setting a Compilation Target 02:33:55 ^
+- Understanding TypeScript Libs 02:37:59 ^
+- More Options 02:43:31 ^
+- Source Maps 02:45:12 ^
+- `Rootdir` and `Outdir` 02:47:12 ^
+- `noemit` on Error 02:52:43 ^
+- Strict Compilation Options 02:55:35 ^
+- Code Quality Options 03:06:39 ^
+
+## 03: VSCode Extensions & Wrap-up
+
+- Debugging with Visual Studio Code 03:11:02 ^
+  - suggestions:
+    - eslint
+    - chrome debugger for VSCode
+    - prettier
+- Wrap Up 03:15:22 ^

@@ -4,39 +4,95 @@
 
     /* Basic Options */
     // "incremental": true,                   /* Enable incremental compilation */
-    "target": "es5" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
+    "target": "es6" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */,
     "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */,
-    // "lib": [],                             /* Specify library files to be included in the compilation. */
+
+    // *** "lib" elements are based on "target" and "module" values
+    // *** if commented out, "lib" imports default libraries
+    // *** EXAMPLE: below are the default libraries for `es6` (would still be imported if commented out)
+    "lib": [
+      "DOM",
+      "es6",
+      "DOM.Iterable",
+      "ScriptHost"
+    ] /* Specify library files to be included in the compilation. */,
+
     // "allowJs": true,                       /* Allow javascript files to be compiled. */
     // "checkJs": true,                       /* Report errors in .js files. */
     // "jsx": "preserve",                     /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */
     // "declaration": true,                   /* Generates corresponding '.d.ts' file. */
     // "declarationMap": true,                /* Generates a sourcemap for each corresponding '.d.ts' file. */
-    // "sourceMap": true,                     /* Generates corresponding '.map' file. */
+
+    // *** "sourceMap" creates a map of the site files
+    // *** includes any `.ts` files, not just js, css, html, etc.
+    // *** this map is viewable by the `sources` tab in browser's dev tools
+    "sourceMap": true /* Generates corresponding '.map' file. */,
+
     // "outFile": "./",                       /* Concatenate and emit output to single file. */
-    // "outDir": "./",                        /* Redirect output structure to the directory. */
-    // "rootDir": "./",                       /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */
+
+    // *** The bigger your program gets, the more you want to organize
+    // *** common practice for `.ts` files to be in `src`folder and `.js` file to be output to a `dist` folder
+
+    // *** `"outdir"` tells TS where output files (`.js`) go
+    // *** EXAMPLE: save output files to `/dist` folder
+    "outDir": "./dist" /* Redirect output structure to the directory. */,
+    // ***NOTE: Make sure to update `<script>` tag on `index.html`
+
+    // *** `rootdir` tells TS where to source compilation from
+    // *** add additional folders/directories through here
+    // *** compiles to same folder/directory structure, w/ output files inside (recursive)
+    // *** if `"rootDir"` not specified, TS will compile and output ALL `.ts` files
+    "rootDir": "./" /* Specify the root directory of input files. Use to control the output directory structure with --outDir. */,
+
     // "composite": true,                     /* Enable project compilation */
     // "tsBuildInfoFile": "./",               /* Specify file to store incremental compilation information */
-    // "removeComments": true,                /* Do not emit comments to output. */
+
+    // *** `"removeComments"` removes comments from source files for cleaner output files
+    "removeComments": true /* Do not emit comments to output. */,
+
+    // *** use `"noEmit"` to prevent file output
+    // *** will still run error-checking, but won't compile/output
     // "noEmit": true,                        /* Do not emit outputs. */
+
     // "importHelpers": true,                 /* Import emit helpers from 'tslib'. */
+
+    // *** `"downlevelIteration"` creates more specific/basic JS code
+    // *** used when compiling down to an older version of JS (Ex: ES3)
+    // *** if `.ts` not compiling correctly, activate to compile more specific (basic) code for output
+    // *** use sparingly, this adds code to output files and may not be necessary
     // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
     // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
 
     /* Strict Type-Checking Options */
     "strict": true /* Enable all strict type-checking options. */,
+
+    // *** if arg for a function is not specified (type `any`), TS throws an error
+    // *** `"noImplicitAny"` prevents TS from throwing errors for `any` type parameters
     // "noImplicitAny": true,                 /* Raise error on expressions and declarations with an implied 'any' type. */
+
+    // *** `"strictNullChecks": false` prevents strict null checks
     // "strictNullChecks": true,              /* Enable strict null checks. */
+
     // "strictFunctionTypes": true,           /* Enable strict checking of function types. */
+
+    // *** `"strictBindCallApply"` makes sure you don't use `bind`, `call`, or `apply` in a way that doesn't work
     // "strictBindCallApply": true,           /* Enable strict 'bind', 'call', and 'apply' methods on functions. */
+
     // "strictPropertyInitialization": true,  /* Enable strict checking of property initialization in classes. */
     // "noImplicitThis": true,                /* Raise error on 'this' expressions with an implied 'any' type. */
+
+    //  *** `"alwaysStrict"` makes sure `.js` files always `"use strict"`
     // "alwaysStrict": true,                  /* Parse in strict mode and emit "use strict" for each source file. */
 
     /* Additional Checks */
+
+    // *** `"noUnusedLocals"` prevents unused local variables
     // "noUnusedLocals": true,                /* Report errors on unused locals. */
+
+    // *** `"noUnusedParameters"` prevents unused params in functions
     // "noUnusedParameters": true,            /* Report errors on unused parameters. */
+
+    // *** `"noImplicitReturns"` throws error on omission of return statements
     // "noImplicitReturns": true,             /* Report error when not all code paths in function return a value. */
     // "noFallthroughCasesInSwitch": true,    /* Report errors for fallthrough cases in switch statement. */
     // "noUncheckedIndexedAccess": true,      /* Include 'undefined' in index signature results */
